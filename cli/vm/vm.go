@@ -3,7 +3,7 @@ package vm
 import (
 	"os"
 
-	"github.com/abiosoft/readline"
+	"github.com/chzyer/readline"
 	vmcli "github.com/nspcc-dev/neo-go/pkg/vm/cli"
 	"github.com/urfave/cli"
 )

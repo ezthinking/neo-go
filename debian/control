@@ -1,0 +1,43 @@
+Source: golang-neo-go
+Section: contrib/net
+Priority: optional
+Maintainer: Erik Ziegenbalg <erikziege@gmail.com>
+Build-Depends: debhelper,
+ dh-golang,
+ golang,
+ golang-gval,
+ golang-ishell,
+ golang-jsonpath,
+ golang-base58,
+ golang-go-datastructures,
+ golang-golang-x-crypto-dev,
+ golang-gopkg-yaml.v2-dev,
+ golang-github-fatih-color-dev,
+ golang-github-anmitsu-go-shlex-dev,
+ golang-github-btcsuite-btcd-btcec-dev,
+ golang-github-chzyer-readline-dev,
+ golang-github-go-redis-redis-dev,
+ golang-github-gogo-protobuf-dev,
+ golang-github-gorilla-websocket-dev,
+ golang-github-hashicorp-golang-lru-dev,
+ golang-go.uber-atomic-dev,
+ golang-go.uber-zap-dev,
+ golang-golang-x-tools-dev,
+ golang-github-stretchr-testify-dev,
+ golang-github-syndtr-goleveldb-dev,
+ golang-github-urfave-cli-dev,
+ golang-github-prometheus-client-golang-dev,
+ golang-github-pierrec-lz4-dev,
+ golang-rfc6979,
+ golang-neofs-api-go,
+ autoconf,
+ automake
+Standards-Version: 3.9.8
+
+# golang-github-dgraph-io-badger-dev,
+
+Package: golang-neo-go
+Architecture: all
+Depends: golang
+Pre-Depends: bash-completion
+Description: Goldengoose dbft

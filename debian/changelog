@@ -1,0 +1,5 @@
+golang-neo-go (1.0) unstable; urgency=medium
+
+  * Goldengoose dbft initial release
+
+ -- Erik Ziegenbalg <erikziege@gmail.com>  Tue, 21 Apr 2021 08:35:54 -0800

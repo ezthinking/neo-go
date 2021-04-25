@@ -14,7 +14,7 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/abiosoft/readline"
+	"github.com/chzyer/readline"
 	"github.com/nspcc-dev/neo-go/pkg/compiler"
 	"github.com/nspcc-dev/neo-go/pkg/encoding/address"
 	"github.com/nspcc-dev/neo-go/pkg/encoding/bigint"

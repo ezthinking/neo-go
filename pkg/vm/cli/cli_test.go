@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/abiosoft/readline"
+	"github.com/chzyer/readline"
 	"github.com/nspcc-dev/neo-go/pkg/compiler"
 	"github.com/nspcc-dev/neo-go/pkg/config"
 	"github.com/nspcc-dev/neo-go/pkg/core/interop/interopnames"
